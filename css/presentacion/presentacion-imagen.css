@@ -1,0 +1,31 @@
+.presentacion__imagen{
+    margin-top:50px;
+    float: right;
+    clear: right;
+    
+}
+
+.presentacion__img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+@media (max-width:1200px) {
+    .presentacion__img{
+        width: 168px;
+        height: 168px;
+    }
+}
+
+@media (max-width:768px) {
+    .presentacion__imagen{
+       margin: 10px 0;
+       float: none;
+       clear: none;
+    }
+    .presentacion__img{
+        width: 98px;
+        height: 98px;
+    }
+}

@@ -1,0 +1,35 @@
+.profesional__enlace{
+    margin: 0 20px;
+    background: rgb(43, 150, 212);
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+.profesional__enlace:hover{
+    transform: scale(1.1, 1.1);
+}
+
+@media (max-width:1200px) {
+    .profesional__enlace{
+        margin: 0 10px;
+        border-radius: 0;
+        padding: 15px;
+        font-size: 14px;
+    }
+    .profesional__enlace:last-child{
+        background-color: white;
+        color: rgb(43, 150, 212);
+        font-weight: bold;
+    }
+}
+
+@media (max-width:768px) {
+    .profesional__enlace{
+        padding: 10px;
+    }
+}
+
+
+

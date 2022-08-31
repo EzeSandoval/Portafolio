@@ -1,0 +1,21 @@
+.personal{
+    width: 90%;
+    margin: 75px auto;
+    padding: 25px 0;
+    background-color: rgb(191, 205, 231);
+}
+
+@media (max-width:1200px) {
+    .personal{
+        padding: 15px 0;
+        margin: 25px auto;
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .personal{
+        padding: 10px 0;
+        margin: 10px 0;
+    }
+}

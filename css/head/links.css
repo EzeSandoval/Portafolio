@@ -1,0 +1,29 @@
+.link{
+    font-size: 16px;
+    color: #343434;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: #2F2F2F;
+    transform: scale(1.1);
+    transition: 0.5s all;
+}
+
+@media (max-width:1200px) {
+    .link{
+        display: none;
+    }
+
+    .link:last-child {
+        display: flex;
+    }
+}
+
+@media (max-width:768px) {
+    .link{
+        font-size: 14px;
+    }
+}
+
+

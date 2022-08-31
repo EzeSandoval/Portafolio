@@ -1,0 +1,18 @@
+.presentacion__nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+}
+
+@media (max-width:1200px) {
+    .presentacion__nav{
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .presentacion__nav{
+        margin: 10px auto;
+    }
+}

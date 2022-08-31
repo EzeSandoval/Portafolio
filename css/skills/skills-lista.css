@@ -1,0 +1,12 @@
+.skills__lista{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:1200px) {
+    .skills__lista{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px;
+    }   
+}

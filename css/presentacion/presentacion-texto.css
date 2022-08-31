@@ -1,0 +1,12 @@
+.presentacion__texto{
+    width: 70%;
+    align-self: center;
+}
+
+@media (max-width:768px) {
+    .presentacion__texto{
+        width: 100%;
+        align-self:none;
+    }
+}
+

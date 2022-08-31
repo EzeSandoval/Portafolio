@@ -1,0 +1,16 @@
+.contacto__titulo{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343434;
+    padding: 0 0 50px 0;
+}
+
+@media (max-width:1200px) {
+    .contacto__titulo{
+        margin: 0 0 10px 10px;
+        font-size: 22px; 
+        text-align: start;
+        padding: 0;
+    }
+}

@@ -1,0 +1,20 @@
+.presentacion__titulo{
+    font-size: 56px;
+    color: #0f0f0f;
+    margin: 20px;
+    font-weight: bold;
+}
+
+@media (max-width:1200px) {
+    .presentacion__titulo{
+        font-size: 22px;
+        margin: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .presentacion__titulo{
+        margin: 0;
+        width: 100%;
+    }
+}

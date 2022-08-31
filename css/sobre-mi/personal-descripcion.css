@@ -1,0 +1,13 @@
+.personal__descripcion{
+    font-size: 1.2rem;
+    margin: 0 0 10px 10px;
+    width: 90%;
+}
+
+@media (max-width:1200px) {
+    .personal__descripcion{
+        font-size: 14px;
+        margin: 0 0 0 5%;
+    }
+}
+

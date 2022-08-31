@@ -1,0 +1,19 @@
+.presentacion__descripcion{
+    font-size: 22px;
+    color: #343434;
+    margin: 20px;
+}
+
+@media (max-width:1200px) {
+    .presentacion__descripcion{
+        font-size: 16px;
+        margin: 10px;
+    }
+}
+
+@media (max-width:1200px) {
+    .presentacion__descripcion{
+        font-size: 14px;
+        margin: 20px 0;
+    }
+}

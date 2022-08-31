@@ -1,0 +1,19 @@
+.profesional__descripcion{
+    margin: 0 50px 0 0;
+    background-color: white;
+    width: 100%;
+    height: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+@media (max-width:1200px){
+    .profesional__descripcion{
+        margin: 0;
+        background-color:rgb(191, 205, 231);
+        height: auto;
+        border-radius: 0;
+    }
+}

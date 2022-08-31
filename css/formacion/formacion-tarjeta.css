@@ -1,0 +1,13 @@
+.formacion__tarjeta{
+    width: 250px;
+    height: 250px; 
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:1200px) {
+    .formacion__tarjeta{
+        width: 200px;
+        height: 250px;
+    }
+}

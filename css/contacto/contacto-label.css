@@ -1,0 +1,11 @@
+.contacto__label{
+    margin-left: 10%;
+    font-size: 1rem;
+}
+
+@media (max-width:1200px) {
+    .contacto__label{
+        margin: 0 63.625px;
+        font-size: 14px;
+    }
+}

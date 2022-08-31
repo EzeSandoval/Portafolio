@@ -1,0 +1,18 @@
+.contacto__campo{
+    display: block;
+    width: 80%;
+    margin:10px 10%;
+    padding: 0.7rem;
+}
+
+.mensaje{
+    overflow: scroll;
+    resize: none;
+}
+
+@media (max-width:1200px) {
+    .contacto__campo{
+        width: 80%;
+        margin: 10px auto;       
+    }
+}

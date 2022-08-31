@@ -1,0 +1,23 @@
+.presentacion__link{
+    color: #343434;
+    margin: 10px;
+    padding: 10px;
+}
+
+.presentacion__link:hover{
+    text-decoration: underline #343434;
+}
+
+@media (max-width:1200px) {
+    .presentacion__link{
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .presentacion__link{
+        font-size: 14px;
+    }
+}

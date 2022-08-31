@@ -1,0 +1,11 @@
+.head__links{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:1200px) {
+    .head__links{
+        justify-content: end;
+    }
+}
+

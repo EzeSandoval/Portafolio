@@ -1,0 +1,12 @@
+.personal__firma{
+    font-family:"dancing script";
+    margin: 100px 0 0 40px;
+    font-size: 2rem;
+}
+
+@media (max-width:1200px) {
+    .personal__firma{
+        font-size: 1.5rem;
+        margin: 25px 0 0 10%;
+    }   
+}

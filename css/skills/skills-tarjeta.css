@@ -1,0 +1,21 @@
+.skills__tarjeta{
+    width: 125px;
+    height: 110px;
+    background-color: #92b1db;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media (max-width:1200px) {
+    .skills__tarjeta{
+        width: 224px;
+        height: 118px;
+    }
+}
+
+@media (max-width:768px) {
+    .skills__tarjeta{
+        width: 156px;
+        height: 118px;
+    }
+}

@@ -1,0 +1,28 @@
+.contacto__boton{
+    padding: 0.5rem;
+    margin-left: 10%;
+    font-weight: bold;
+    width: 200px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: rgb(43, 150, 212);
+    color: white;
+}
+
+.contacto__boton:hover{
+    background: rgb(43, 150, 212);
+    transition: 1s;
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+
+@media (max-width:1200px){
+    .contacto__boton{
+        margin: 0 64px;
+        width: 125px;
+        border-radius: 0;
+        font-size: 14px;
+
+    }
+}

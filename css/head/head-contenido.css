@@ -1,0 +1,14 @@
+.head__contenido{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 100px;
+}
+
+@media (max-width:1200px) {
+    .head__contenido {
+        height: auto;
+        margin: 10px auto;
+    }
+}

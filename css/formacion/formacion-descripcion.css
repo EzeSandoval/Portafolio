@@ -1,0 +1,11 @@
+.formacion__descripcion{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@media (max-width:1200px) {
+    .formacion__descripcion{
+        font-size: 14px;
+    }
+}
+

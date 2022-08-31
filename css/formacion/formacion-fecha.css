@@ -1,0 +1,12 @@
+.formacion__fecha{
+    font-size: 14px;
+    font-weight: bold;
+}   
+
+@media (max-width:1200px) {
+    .formacion__fecha{
+        font-size: 12px;
+        font-weight: none;
+    }
+}
+

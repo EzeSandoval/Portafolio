@@ -1,0 +1,15 @@
+.contacto{
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+@media (max-width:1200px) {
+    .contacto{
+        width: 100%;
+        height: auto;
+        background-color: rgb(191, 205, 231);
+        padding: 10px 0;
+    }
+}

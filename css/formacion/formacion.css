@@ -1,0 +1,14 @@
+.formacion{
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0;
+    background-color: rgb(191, 205, 231);
+}
+
+@media (max-width:1200px) {
+    .formacion{
+        padding: 15px 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+}

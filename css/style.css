@@ -1,0 +1,14 @@
+body, main html{
+    font-family: "mulish";
+    min-width: 360px;
+    max-width: 1440px;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+     
+      
+

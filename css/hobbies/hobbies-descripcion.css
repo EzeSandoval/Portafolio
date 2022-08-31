@@ -1,0 +1,12 @@
+.hobbies__descripcion{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 5px 0 5px 5px;
+}
+
+@media (max-width:1200px) {
+    .hobbies__descripcion{
+        font-size: 16px;
+    }   
+}
+
